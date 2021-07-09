@@ -3,7 +3,7 @@ import { Todo } from '@happyorg/data';
 
 @Injectable()
 export class AppService {
-  todos: Todo[] = [{ title: 'Todo 1' }, { title: 'Todo 2' }];
+  todos: Todo[] = [];
 
   getData(): Todo[] {
     return this.todos;
